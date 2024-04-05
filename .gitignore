@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+
+# Spyder project settings
+.spyderproject
+.ropeproject
+
+# PyCharm project settings
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
