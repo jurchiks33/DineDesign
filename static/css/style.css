@@ -86,3 +86,26 @@ footer {
     border: none;
     cursor: pointer;
 }
+
+/* Social Media Section */
+#social-media {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Featured Recipes Section */
+#featured-recipes {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    /* Add more styles for the recipe carousel */
+}
+
+/* Meal Planning Section */
+#meal-planning {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin: 20px 0;
+}
