@@ -59,3 +59,30 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Newsletter Subscription Section */
+#newsletter-subscription {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#newsletter-subscription form {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#newsletter-subscription input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 300px; /* Adjust width as needed */
+    border: 1px solid #ddd;
+}
+
+#newsletter-subscription button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
