@@ -16,7 +16,26 @@
                 <li><a href="/community">Community</a></li>
             </ul>
         </nav>
-    </header> 
+    </header>
+    <img src="{{ url_for('static', filename='images/recipe_image.jpg') }}" alt="Recipe Image">
+
+    <section id="ingredients">
+        <h2>Ingredients</h2>
+        <div class="ingredient-list">
+            <ul>
+                {% for ingredient in ingredients %}
+                    <li>{{ ingredient }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+
+    <section id="instructions">
+        <h2>Instructions</h2>
+        <div class="cooking-instructions">
+            <p>{{ instructions }}</p>
+        </div>
+    </section> 
     <section id="search-area">
         <input type="text" placeholder="Search for recipes....">
         <button>Search</button>
