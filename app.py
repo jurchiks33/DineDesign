@@ -16,3 +16,13 @@ def home():
                            featured_recipes=featured_recipes,
                            latest_posts=latest_posts,
                            testimonials=testimonials)
+
+@app.route('/recipe')
+def recipe():
+    # Placeholder data for a single recipe
+    ingredients = [
+        '3/4 pound fresh asparagus, trimmed',
+        '8 turkey breast cutlets (about 1 pound)',
+        '1 tablespoon Dijon-mayonnaise blend',
+        # ... additional ingredients ...
+    ]
