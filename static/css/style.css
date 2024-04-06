@@ -109,3 +109,25 @@ footer {
     padding: 20px;
     margin: 20px 0;
 }
+
+/* Community Section */
+#community-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Blog Posts Section */
+#latest-blog-posts {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
