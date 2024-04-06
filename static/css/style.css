@@ -131,3 +131,29 @@ footer {
     margin: 20px 0;
     text-align: center;
 }
+
+img {
+    width: 100%; /* or any other width */
+    height: auto; /* maintain aspect ratio */
+    margin-bottom: 20px;
+}
+
+#ingredients, #instructions {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ingredient-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ingredient-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+
+.cooking-instructions p {
+    white-space: pre-line; /* This will respect line breaks */
+}
