@@ -26,3 +26,16 @@ def recipe():
         '1 tablespoon Dijon-mayonnaise blend',
         # ... additional ingredients ...
     ]
+    instructions = """
+    Step 1: Preheat your grill to medium heat.
+    Step 2: Grill asparagus and turkey until cooked.
+    Step 3: Spread Dijon-mayonnaise blend on turkey cutlets.
+    Step 4: Wrap each cutlet with ham and cheese, and secure with a toothpick.
+    Step 5: Grill until cheese is melted.
+    Step 6: Serve with your choice of sauce.
+    """
+    # This data could also come from a database in a more dynamic application
+    return render_template('recipe.html', ingredients=ingredients, instructions=instructions)
+
+if __name__ == '__main__':
+    app.run(debug=True)
